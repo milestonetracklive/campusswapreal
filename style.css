@@ -85,3 +85,12 @@ footer { background: #222; color: #888; padding: 20px 0; text-align: center; fon
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
+
+.cartoon-photo {
+    width: 100%;
+    height: auto; /* Keeps the aspect ratio correct */
+    max-height: 1000px; /* Prevents it from getting too tall */
+    object-fit: cover; /* Crops the image neatly if needed */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
