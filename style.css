@@ -75,3 +75,13 @@ ul { list-style: none; }
 
 /* FOOTER */
 footer { background: #222; color: #888; padding: 20px 0; text-align: center; font-size: 0.9rem; }
+
+/* Add this to style.css */
+.team-photo {
+    width: 100%;
+    height: auto; /* Keeps the aspect ratio correct */
+    max-height: 400px; /* Prevents it from getting too tall */
+    object-fit: cover; /* Crops the image neatly if needed */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
